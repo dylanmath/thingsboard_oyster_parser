@@ -229,5 +229,21 @@ function parseSigFox(data) {
 }
 
 /**********************************************************************/
+/*
+var data = "2061fc77e936d84a569203d3";
+
+var oysterPayload = parseSigFox(data);
+
+console.log(oysterPayload);
+
+console.log(oysterPayload.MessageType);
+console.log(oysterPayload.InTrip);
+console.log(oysterPayload.LastFixFailed);
+console.log(oysterPayload.Latitude);
+console.log(oysterPayload.Longitude);
+console.log(oysterPayload.Heading);
+console.log(oysterPayload.SpeedKmH);
+console.log(oysterPayload.BatteryVoltage);
+*/
 
 return result;
